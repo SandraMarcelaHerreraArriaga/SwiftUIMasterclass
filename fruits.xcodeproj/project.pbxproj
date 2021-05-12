@@ -19,6 +19,7 @@
 		37B630A5264109AB00932FB1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B630A4264109AB00932FB1 /* OnboardingView.swift */; };
 		37B6BD032643A7B200789D59 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B6BD022643A7B200789D59 /* FruitModel.swift */; };
 		37B6BD0C2643A86A00789D59 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B6BD0B2643A86A00789D59 /* FruitData.swift */; };
+		FCA5286D264B91E800C38D90 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5286C264B91E800C38D90 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		37B630A4264109AB00932FB1 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		37B6BD022643A7B200789D59 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		37B6BD0B2643A86A00789D59 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		FCA5286C264B91E800C38D90 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				37B630972640FF4400932FB1 /* FruitCardView.swift */,
 				37B6309C2641049600932FB1 /* StartButtonView.swift */,
+				FCA5286C264B91E800C38D90 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			files = (
 				37B6BD0C2643A86A00789D59 /* FruitData.swift in Sources */,
 				37B630922640FEFE00932FB1 /* FructusApp.swift in Sources */,
+				FCA5286D264B91E800C38D90 /* FruitRowView.swift in Sources */,
 				37B630982640FF4400932FB1 /* FruitCardView.swift in Sources */,
 				37B6309D2641049600932FB1 /* StartButtonView.swift in Sources */,
 				37B6305F2640E31D00932FB1 /* ContentView.swift in Sources */,
@@ -489,6 +493,7 @@
 				DEVELOPMENT_TEAM = 8WCYP3346D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = fruits/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,6 +515,7 @@
 				DEVELOPMENT_TEAM = 8WCYP3346D;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = fruits/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
